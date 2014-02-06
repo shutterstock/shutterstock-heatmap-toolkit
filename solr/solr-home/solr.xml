@@ -30,7 +30,5 @@
   -->
   <cores adminPath="/admin/cores" host="${host:}" hostPort="${jetty.port:8983}" hostContext="${hostContext:solr}">
     <core name="heatmap" instanceDir="heatmap" dataDir="${solr.dataDir}/heatmap" />
-    <core name="cubemetadata" instanceDir="cubemetadata" dataDir="${solr.dataDir}/cubedatameta" />
-    <core name="trendingtopics" instanceDir="trendingtopics" dataDir="${solr.dataDir}/trendingtopics" />
   </cores>
 </solr>

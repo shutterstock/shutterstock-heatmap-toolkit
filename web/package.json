@@ -1,0 +1,19 @@
+{
+  "name": "sample",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "private": true,
+  "dependencies": {
+    "express": "*",
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "",
+  "author": "",
+  "license": "MIT"
+}

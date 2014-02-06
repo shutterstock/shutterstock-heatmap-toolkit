@@ -3,12 +3,12 @@ This is a solr instance for running interactive heatmaps
 # Building Solr
 
 ```bash
-rock build
+./build.sh
 ```
 
 
 # Running Solr
 
 ```bash
-rock run_solr
+./run.sh
 ```

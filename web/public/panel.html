@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+	<title>Heatmaps</title>
+	<link type="text/css" rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="css/controls.css">
+	<script src="js/heatmap/heatmap.js"></script>
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="bootstrap/js/bootstrap.js"></script>
+	<script src="js/Heatmap.js"></script>
+	<script src="js/Heatmap.ControlPanel.js"></script>
+  </head>
+
+  <body>
+<style>
+body {
+	position: fixed;
+	background: transparent;
+}
+</style>
+
+<div id="control-panel"></div>
+
+<div id="bottom-container">
+	<div id="container">
+		<div id="heatmap-overlay"></div>
+		<div id="hover-overlay"></div>
+	</div>
+</div>
+
+<script>
+var heatmap = new Heatmap();
+</script>
+</body>
+</html>

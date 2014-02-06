@@ -1,0 +1,377 @@
+body {
+	background: #333;
+}
+
+.navbar-fixed-top .dropdown-menu {
+    overflow-y: scroll;
+}
+
+
+.navbar-fixed-top .dropdown-menu .active {
+    background: #08c;
+    color: #fff;
+}
+
+.navbar-fixed-top .dropdown-menu .active .value-volume{
+    color: #eee;
+}
+
+
+
+.value-volume {
+	font-size: 80%;
+	color: #888;
+	padding-left: 5px;
+}
+
+
+
+#url-input-row, #site-input-row { 
+    display: none;
+}
+
+.control-column {
+	padding: 3px;
+	padding-top: 20px;
+	width: 300px;
+	float: left;
+	color: #eee;
+	height: 190px;
+	top: 30px;
+	position: relative;
+}
+
+#container {
+	position: relative;
+}
+
+#heatmap-overlay {
+	width: 2000px;
+	height: 4000px;
+	position: absolute;
+	z-index: 1000;
+	pointer-events:none;
+	top: 5px; // better align heatmap since x,y values are rounded down to the nearest 10
+	left: 0;
+}
+
+#hover-overlay {
+	width: 2000px;
+	height: 4000px;
+	position: absolute;
+	z-index: 1001;
+	display: none;
+	top: 5px; /* better align heatmap since x,y values are rounded down to the nearest 10 */
+	background: #400;
+	opacity: 0.1;
+}
+
+
+#site-iframe {
+	border: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #fff;
+}
+
+#viewtype-tabs ul .disabled a {
+    background: #222;
+    color: #777;
+}
+
+#viewtype ul .disabled:hover, #viewtype ul .disabled:hover a {
+    border: 0;
+}
+
+#viewtype-tabs {
+	position: absolute;
+	bottom: 21px;
+	left: 10px;
+}
+
+#viewtype-tabs .nav-tabs {
+    border-bottom: 1px solid #222;
+}
+
+#viewtype-tabs ul li a {
+	background: #444;
+	color: #4bf;
+	cursor: pointer;
+	min-width: 60px;
+}
+
+#viewtype-tabs ul .active a {
+	background: #08c;
+	color: #eee;
+}
+
+
+#viewport-controls {
+	position: absolute;
+	bottom: 0;
+	width: 2000px;
+	height: 40px;
+	background: #222;
+	color: #ddd;
+}
+
+#site-url-input {
+    width: 163px;
+}
+
+#hoverinfo-button {
+    margin-left: 73px;
+    margin-top: 30px;
+}
+
+#mode-instructions {
+	position: relative;    
+	display: none;
+	width: 100%;
+	margin-left: 22px;
+	margin-top: 12px;
+	color: #FF0;
+	background: #222;
+	padding: 5px 21px;
+	border-radius: 3px
+}
+
+
+.viewport-option {
+	color: #fff;
+	position: absolute;
+	height: 100%;
+	width: 85px;
+	font-size: 80%;
+	top: 0;
+	background:#444;
+	padding-left: 4px;
+	margin-left: 3px;
+	cursor: pointer;
+	border-left: 2px solid #fff;
+	border-right: 2px solid #222;
+}
+
+.viewport-option:hover {
+    z-index: 10000;
+}
+
+
+.viewport-option:hover {
+	background: #666;
+	color: #fff;
+}
+
+.viewport-option .count {
+    font-size: 80%;
+    color: #aaa;
+    padding-left: 4px;
+}
+
+#viewport-controls .active {
+	border: 2px solid #aaa;
+	background: #777;	
+	color: #fff;
+}
+
+.viewport-label {
+	color: #ddd;
+	position: absolute;
+	height: 20px;
+	font-size: 90%;
+	top: 0;
+	left: 10px;
+}
+
+.viewport-label i {
+    opacity: 0.5;
+}
+
+.info {
+	height: 230px;
+	width: 360px;
+	padding-left: 10px;
+	float: left;
+	color: #eee;
+}
+
+.info button {
+    	color: #65a0d0;
+	padding: 2px;
+	width: 144px;
+}
+
+.info button:hover {
+	color: #85ccff;
+}
+
+.info .field {
+    height: 20px;
+}
+
+.info .field-label {
+	border: 1px solid #333;
+	background: #444;
+	font-size: 90%;
+	color: #aaa;
+	width: 160px;
+	float: left;
+	padding: 3px;
+	padding-left: 8px;
+}
+
+.info .value {
+	border: 1px solid #333;
+	background: #444;
+	font-size: 90%;
+	color: #fff;
+	width: 167px;
+	float: left;
+	clear: right;
+	padding: 3px;
+	padding-left: 8px;
+}
+
+
+
+
+.control-row {
+	width: 100%;
+	float: left;
+	height: 40px;
+}
+
+.control-row > div {
+	float: left;
+}
+
+.count {
+	font-size: 75%;
+}
+
+.field-name {
+	width: 70px;
+	font-size: 90%;
+	text-align: right;
+	padding-right: 9px;
+	color: #aaa;
+}
+
+#submit-ab-query {
+    margin-left: 73px;
+}
+
+#bottom-container {
+	width: 2400px;
+	position: relative;
+}
+
+#bottom-container .right{
+	position: absolute;
+	left: 250px;
+	width: 2000px;
+}
+
+#bottom-container .left{
+	position: absolute;
+	left: 0px;
+	width: 250px;
+}
+
+#page-elements-container {
+	margin-top: 1px;
+	color: #eee;
+	overflow-y: scroll;
+	height: 140px;
+	width: 300px;
+	background: #444;
+}
+
+#heatmap-page-elements li {
+    cursor: pointer;
+}
+
+#heatmap-control-button-container {
+	margin-top: 15px;
+	margin-left: 170px;
+	padding: 3px;
+	width: 60px;
+	height: 34px;
+	background: #444;
+}
+
+#enable-select-region .icon {
+    border: 1px solid #eee;
+    width: 20px;
+    height: 15px;
+    margin: 3px;
+}
+
+#enable-select-region .icon div {
+    position: relative;
+    top: 3px;
+    left: 2px;
+    border: 1px dashed #fff;
+    width: 7px;
+    height: 5px;
+}
+
+
+#page-elements-container ul {
+	padding: 0;
+	margin: 0;
+	margin-left: 15px;
+}
+
+#page-elements-container li {
+	list-style-type: none;
+}
+
+#page-elements-container h5 {
+	margin-left: 15px;
+}
+
+#page-elements-container li .value-name {
+	font-size: 90%;
+	color: #65a0d0;
+	width: 200px;
+	overflow: hidden;
+	float: right;
+	text-align: left;
+	padding-left: 5px;
+}
+
+#page-elements-container li .value-name:hover {
+	color: #85ccff;
+}
+
+#page-elements-container li .value-count {
+	font-size: 70%;
+	color: #aaa;
+	width: 40px;
+	float: left;
+	text-align: right;
+	padding-right: 5px;
+}
+
+.loading-state {
+	position: absolute;
+	left: 500px;
+	top: 300px;
+	height: 100px;
+	width: 100px;
+//	background-image: url('../../images/loading.gif');
+	background-repeat:no-repeat;
+	opacity: 0.5;
+	background-position:center; 
+	z-index: 100000;
+}
+
+.hidden {
+    display: none;
+}
+
+.debug {
+    opacity: 0.2;
+}
