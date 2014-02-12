@@ -3,6 +3,9 @@ shutterstock-heatmap-toolkit
 
 Shutterstock's interactive heatmap toolkit powered by heatmap.js and Solr
 
+* [Heatmap.js](http://www.patrick-wied.at/static/heatmapjs/)
+* [Apache Solr](https://lucene.apache.org/solr/)
+
 
 ## 1. Build and Run Solr
 
