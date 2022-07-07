@@ -9,7 +9,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<dist.dir>${project.build.directory}/distribution</dist.dir>
-		<jetty.version>8.1.2.v20120308</jetty.version>
+		<jetty.version>9.4.48.v20220622</jetty.version>
 		<jetty-orbit.version>3.0.0.v201112011016</jetty-orbit.version>
 	</properties>
 
